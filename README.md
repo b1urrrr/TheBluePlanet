@@ -1,4 +1,4 @@
-# :earth_asia: 푸른별: TheBluePlanet
+# :earth_asia: 푸른별: The Blue Planet
 <img src="https://user-images.githubusercontent.com/70993562/153038394-9cb258bc-0fa8-4f6c-8699-4d82e02e7f5c.png">
 <div align="center">지구 환경에 대한 교훈적인 메시지를 담은 안드로이드 모바일 게임 <푸른별: The Blue Planet></div>
 <br>
