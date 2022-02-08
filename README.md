@@ -4,7 +4,7 @@
 <br>
 
 ## :earth_asia: 게임 줄거리
-&nbsp;&nbsp;외계인 WED는 책을 통해 푸른 지구의 모습을 보게 된다. 모두의 만류에도 불구하고 아름다운 지구를 보기 위해 여행을 떠나지만, 환경은 오염되고 인간은 사라진 지구의 삭막한 상태를 마주하게 된다. WED는 자신의 능력으로 지구를 조금씩 되살리며 자연의 소중함을 깨닫는다.
+&nbsp;&nbsp;외계인 WED는 책을 통해 지구의 푸른 모습을 보게 된다. 모두의 만류에도 불구하고 아름다운 지구를 보기 위해 여행을 떠나지만, 환경은 오염되고 인간은 사라진 지구의 삭막한 상태를 마주하게 된다. WED는 자신의 능력으로 지구를 조금씩 되살리며 자연의 소중함을 깨닫게 된다.
 <br></br>
 
 ## :earth_asia: 게임 구성
@@ -32,11 +32,11 @@
 ## 🛠 기술 스택
 | 분야 | Tools |
 | --- | --- |
-| 게임 개발 환경 | Unity |
+| 게임 개발 | Unity |
 | 협업 및 버전 관리 | Unity Collaboration |
 | UI 및 UX | Clip Studio |
 | 사운드트랙 작업 | Studio One 4 |
 <br>
 
 ## :ledger: 작품 설명 자료
-[푸른별_푸른별(The Blue Planet).pptx](https://github.com/b1urrrr/TheBluePlanet/files/8026277/_.The.Blue.Planet.pptx)
+[푸른별(The Blue Planet) 발표자료.pptx](https://github.com/b1urrrr/TheBluePlanet/files/8026277/_.The.Blue.Planet.pptx)
