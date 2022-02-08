@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/stage3_air/stage3_air.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

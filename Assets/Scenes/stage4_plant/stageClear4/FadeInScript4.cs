@@ -1,0 +1,125 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using System.Net.Sockets;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class FadeInScript4 : MonoBehaviour
+{
+    SpriteRenderer blackSr;
+    SpriteRenderer stageClearSr;
+    SpriteRenderer tapToContinueSr;
+    public GameObject black;
+    public GameObject stageClear;
+    public GameObject tapToContinue;
+    GameObject score;
+    GameObject pause;
+    GameObject moveKeys;
+
+    // 시작(0), 투명(-1), 불투명(1)
+    public int visable4;
+    bool finish = false;
+
+    void Start()
+    {
+        blackSr = black.GetComponent<SpriteRenderer>();
+        stageClearSr = stageClear.GetComponent<SpriteRenderer>();
+        tapToContinueSr = tapToContinue.GetComponent<SpriteRenderer>();
+        score = GameObject.Find("score");
+        pause = GameObject.Find("Pause");
+        moveKeys = GameObject.Find("Move Keys");
+        visable4 = 0;
+
+        // 투명하게 초기화
+        reset(blackSr);
+        reset(stageClearSr);
+        reset(tapToContinueSr);
+    }
+
+    void reset(SpriteRenderer sr)
+    {
+        Color c = sr.material.color;
+        c.a = 0;
+        sr.material.color = c;
+    }
+
+    void isFinish()
+    {
+        finish = true;
+    }
+
+    void Update()
+    {
+        if (finish == true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                // Debug.Log("스테이지 이동 (연결되지 않음)");
+                SceneManager.LoadScene("NormalEnding");
+            }
+        }
+
+        if (visable4 == 1)
+        {
+            Destroy(score);
+            Destroy(pause);
+            Destroy(moveKeys);
+            Invoke("blackIn", 0.0f);
+            Invoke("stageClearIn", 2f);
+            Invoke("tapToContinueIn", 3.5f);
+            Invoke("isFinish", 3.5f);
+            visable4 = 0;
+        }
+    }
+
+    void blackIn()
+    {
+        StartCoroutine("fadeBlack");
+    }
+
+    void stageClearIn()
+    {
+        StartCoroutine("fadeStageClear");
+    }
+
+    void tapToContinueIn()
+    {
+        StartCoroutine("fadeTapToContinue");
+    }
+
+    IEnumerator fadeBlack()
+    {
+        for (float i = 0; i <= 11; i += 0.1f)
+        {
+            float f = i / 10.0f;
+            Color c = blackSr.material.color;
+            c.a = f;
+            blackSr.material.color = c;
+            yield return new WaitForSeconds(0.02f);
+        }
+    }
+
+    IEnumerator fadeStageClear()
+    {
+        for (float i = 0; i <= 11; i += 0.1f)
+        {
+            float f = i / 10.0f;
+            Color c = stageClearSr.material.color;
+            c.a = f;
+            stageClearSr.material.color = c;
+            yield return new WaitForSeconds(0.01f);
+        }
+    }
+
+    IEnumerator fadeTapToContinue()
+    {
+        for (float i = 0; i <= 11; i += 0.3f)
+        {
+            float f = i / 10.0f;
+            Color c = tapToContinueSr.material.color;
+            c.a = f;
+            tapToContinueSr.material.color = c;
+            yield return new WaitForSeconds(0.03f);
+        }
+    }
+}
