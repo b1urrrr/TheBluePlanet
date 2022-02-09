@@ -26,7 +26,7 @@
 ## :busts_in_silhouette: 프로젝트 참여자
 | 손정후 | 임서희 | 전채연 |
 | --- | --- | --- |
-|  |  | [@b1urrrr](https://github.com/b1urrrr) |
+| [@jhson929](https://github.com/jhson929) |  | [@b1urrrr](https://github.com/b1urrrr) |
 <br>
 
 ## 🛠 기술 스택
