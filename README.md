@@ -39,4 +39,5 @@
 <br>
 
 ## :ledger: 작품 설명 자료
-[푸른별(The Blue Planet) 발표자료.pptx](https://github.com/b1urrrr/TheBluePlanet/files/8026277/_.The.Blue.Planet.pptx)
+[푸른별(The Blue Planet) 발표자료](https://github.com/b1urrrr/TheBluePlanet/files/8026277/_.The.Blue.Planet.pptx)
+[▶ 푸른별(The Blue Planet) 시연영상](https://drive.google.com/file/d/141fR_ICEEZhaFUbTUCDjh8SxB0orh7km/view?usp=sharing)
