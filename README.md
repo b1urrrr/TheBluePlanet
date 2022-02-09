@@ -9,16 +9,16 @@
 
 ## :earth_asia: 게임 구성
   - **Stage 1. 흙** : 언덕을 배경으로 하며, 오염된 토양을 빠르게 터치하여 제거한다.
-  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044622-f28674a5-f413-4b51-94a2-c2dbbe999eb2.jpg" height=280></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044622-f28674a5-f413-4b51-94a2-c2dbbe999eb2.jpg" width=575 height=280></p>
   
   - **Stage 2. 물** : 바닷속을 배경으로 하며, 곳곳에 숨겨진 쓰레기를 찾아 먹는다.
-  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044678-c96492ae-e466-48f7-bf86-384ea24b6372.jpg" height=280></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044678-c96492ae-e466-48f7-bf86-384ea24b6372.jpg" width=575 height=280></p>
   
   - **Stage 3. 공기** : 하늘의 목표지점에 도달하여 대기 중의 오염 물질들을 빨아들인다.
-  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044713-a97c4c0d-cddb-4812-a46e-2e7a19e13051.jpg" height=280></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044713-a97c4c0d-cddb-4812-a46e-2e7a19e13051.jpg" width=575 height=280></p>
   
   - **Stage 4. 식물** : 반짝이는 토양을 찾아 씨앗을 심은 뒤, 햇빛과 물을 제공한다.
-  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044737-9093c02d-251d-4afc-aa7c-cb99987a411a.jpg" height=280></p>
+  <p align="center"><img src="https://user-images.githubusercontent.com/70993562/153044737-9093c02d-251d-4afc-aa7c-cb99987a411a.jpg" width=575 height=280></p>
   
   - **도전과제** : 각 스테이지마다 특정 동물을 구하여 도전과제를 달성할 수 있다.
   <br></br>
