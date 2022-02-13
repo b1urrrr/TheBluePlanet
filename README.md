@@ -34,7 +34,7 @@
 | 분야 | Tools |
 | --- | --- |
 | 게임 개발 | Unity |
-| 협업 및 버전 관리 | Unity Collaboration |
+| 협업 및 버전 관리 | Unity Collaboration, MS Teams |
 | UI 및 UX | Clip Studio |
 | 사운드트랙 작업 | Studio One 4 |
 <br>
